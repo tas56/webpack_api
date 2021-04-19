@@ -114,7 +114,7 @@ app.post('/login', (req, res) => {
         res.cookie('AuthToken', authToken);
 
         // Redirect user to the protected page
-        res.redirect('/protected');
+        res.redirect('http://localhost:8000/');
     } else {
         res.render('login', {
             message: 'Invalid username or password',
@@ -135,7 +135,7 @@ app.use((req, res, next) => {
 
 app.get('/protected', (req, res) => {
     if (req.user) {
-        res.render('protected');
+        res.render('http://localhost:8000/');
     } else {
         res.render('login', {
             message: 'Please login to continue',
