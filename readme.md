@@ -1,26 +1,19 @@
-Prerequisites:
-Install Node:
-https://nodejs.org/en/download/
+# CRUD API with WebPack
+
+## Create
+
+![image](https://user-images.githubusercontent.com/74079285/113936267-8a535280-97c5-11eb-9329-3af51780e1a1.png)
 
 
-Install Webpack Globally by running this command on your terminal / command prompt
+## Read
 
-npm install --global webpack
+![image](https://user-images.githubusercontent.com/74079285/113936312-9b03c880-97c5-11eb-8c4b-7bed304f7e5d.png)
+![image](https://user-images.githubusercontent.com/74079285/113936328-a0611300-97c5-11eb-8732-254618126529.png)
 
-Webpack Documentation: https://webpack.js.org/
+## Update
 
-To Use:
+![image](https://user-images.githubusercontent.com/74079285/113936369-ab1ba800-97c5-11eb-8ea1-b04e0cc20371.png)
 
-1.  Clone the Repo
-2.  Run npm install
-3.  Run webpack serve to live reload your project, so you can see changes without refreshing the browser
-4.  Once it's running you can go to the dev server and see your changes: http://localhost:9000/
-5.  **run "webpack build" to bundle your code and put it in the docs folder so github pages can serve it**
+## Delete
 
-Press Control C to stop the server or the builder
-
-Turn on github pages and put a link to your site in the readme when you turn in the github repo link.
-
-Working site here:
-
-http://www.webizly.com/BasicWebPack/
+![image](https://user-images.githubusercontent.com/74079285/113936398-b4a51000-97c5-11eb-8244-958e4c7664da.png)
