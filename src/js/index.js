@@ -4,7 +4,7 @@ import getJSON from './getJSON';
 import Table from './Table';
 
 TestJS();
-getJSON('',  (data) => {
+getJSON('',(data) => {
     console.log(data);
 });
 
