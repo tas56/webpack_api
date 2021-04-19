@@ -2,6 +2,7 @@ const express = require('express');
 const exphbs = require('express-handlebars');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
+const path = require('path');
 
 const app = express();
 
@@ -18,13 +19,13 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // To parse cookies from the HTTP Request
 app.use(cookieParser());
-app.use()
 
 app.engine('hbs', exphbs({
     extname: '.hbs'
 }));
 
 app.set('view engine', 'hbs');
+app.set('views', path.join(__dirname, "views"));
 
 // Our requests hadlers will be implemented here...
 app.get('/', function (req, res) {
@@ -32,7 +33,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/register', (req, res) => {
-    res.render('registration');
+    res.render('register');
 });
 
 const users = [
