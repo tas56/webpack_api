@@ -19,11 +19,7 @@ getJSON('http://localhost:8000/api/v1/cities',
 
             Table.generateTableHead(table, data);
             Table.generateTable(table, dataRecords);
-            /*
-            let data = Object.keys(records.data[0]);
-            generateTable(table, records.data); // generate the table first
-            generateTableHead(table, data); // then the head
-             */
+
         }
 
     });

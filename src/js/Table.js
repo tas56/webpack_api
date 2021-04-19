@@ -1,4 +1,5 @@
 module.exports = class Table {
+
     static generateTableHead(table, data) {
         let thead = table.createTHead();
         let row = thead.insertRow();
@@ -22,4 +23,5 @@ module.exports = class Table {
             }
         }
     }
+
 }
