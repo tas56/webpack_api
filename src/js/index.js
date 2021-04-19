@@ -1,10 +1,10 @@
-import TestJS from "./TestJs";
-import ConsoleLogIt from "./ConsoleLogIt";
-import getJSON from "./getJSON";
-import Table from "./Table"
+import TestJS from './TestJs';
+import ConsoleLogIt from './ConsoleLogIt';
+import getJSON from './getJSON';
+import Table from './Table'
 
 TestJS();
-getJSON("", function (data) {
+getJSON('', function (data) {
     console.log(data);
 });
 
@@ -13,7 +13,7 @@ getJSON('http://localhost:8000/api/v1/cities',
         if (err !== null) {
             alert('Something went wrong: ' + err);
         } else {
-            let table = document.querySelector("table");
+            let table = document.querySelector('table'');
             let data = Object.keys((records.data[0]));
             let dataRecords = records.data;
 
@@ -23,4 +23,4 @@ getJSON('http://localhost:8000/api/v1/cities',
         }
 
     });
-ConsoleLogIt("this workeds  in the bundle");
+ConsoleLogIt('this workeds  in the bundle');
