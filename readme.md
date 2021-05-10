@@ -1,5 +1,9 @@
 # CRUD API with WebPack
 
+# expressCRUD Branch
+
+This branch implements an express server with the ability to create, retrieve, update and delete data from a MySql database.
+
 ## Create
 
 ![image](https://user-images.githubusercontent.com/74079285/113936267-8a535280-97c5-11eb-9329-3af51780e1a1.png)
