@@ -1,5 +1,5 @@
 # CRUD API with WebPack
 
-This project features an express CRUD API with a webpack configuration file. Each branch implements a different topic. Switch branches to see each implementation seperately, master branch is a merge of all implementation.
+### webpackESLint branch
 
-## expressCRUD branch
+This branch implements webpack with the ESLint plugin for syntax correction, in the commits you will see the code changes that were made due to ESLint suggestions.
